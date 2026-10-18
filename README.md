@@ -77,10 +77,27 @@ The goal is to explore how machine learning techniques can support insurance cla
 - Data quality and drift monitoring
 - Communicating analytical results to business stakeholders
 
+## Model Performance and Evaluation
+
+Three classification models were evaluated: a baseline Decision Tree, a tuned Decision Tree, and Logistic Regression.
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---|---:|---:|---:|---:|---:|
+| Tuned Decision Tree | 59.56% | 9.55% | 62.80% | 16.58% | 65.37% |
+| Decision Tree Baseline | 51.63% | 9.12% | 73.20% | 16.23% | 65.16% |
+| Logistic Regression | 57.48% | 8.21% | 55.47% | 14.31% | 59.14% |
+
+### Key Findings
+
+- The tuned Decision Tree achieved the highest accuracy (59.56%), F1-score (16.58%), and ROC-AUC (65.37%) among the three evaluated models.
+- The baseline Decision Tree achieved the highest recall (73.20%), identifying a larger proportion of actual positive cases at the cost of lower precision.
+- Precision was low across all three models, indicating that many predicted positive cases may be false positives.
+- Model selection should therefore consider the business cost of missed claims versus unnecessary investigations, rather than accuracy alone.
+
+These results reflect the evaluated models and dataset. Further validation, threshold tuning, and assessment on unseen data would be needed before operational deployment.
+
 ## Author
 
 Sonu
 
 ---
-
-*Note: Model performance metrics and final business conclusions should be added after verifying the notebook outputs and reports.*
