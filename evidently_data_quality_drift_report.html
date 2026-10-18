@@ -1,0 +1,304 @@
+
+    <html>
+    <head>
+        <title>Evidently Data Quality and Drift Report</title>
+    </head>
+    <body>
+        <h1>Evidently Data Quality and Drift Report</h1>
+        <p>Direct Evidently report generation was not available in this environment.</p>
+        <p>A fallback drift summary was created using reference and current dataset statistics.</p>
+        <h2>Dataset Shapes</h2>
+        <p>Reference Data Shape: (5000, 101)</p>
+        <p>Current Data Shape: (5000, 101)</p>
+        <h2>Missing Values</h2>
+        <p>Reference Missing Values: 0</p>
+        <p>Current Missing Values: 0</p>
+        <h2>Drift Summary</h2>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Feature</th>
+      <th>Reference_Mean</th>
+      <th>Current_Mean</th>
+      <th>Reference_STD</th>
+      <th>Current_STD</th>
+      <th>Standardized_Difference</th>
+      <th>Drift_Flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>policy_tenure</td>
+      <td>6.159835e-01</td>
+      <td>6.013499e-01</td>
+      <td>4.166802e-01</td>
+      <td>4.114857e-01</td>
+      <td>0.035119</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>age_of_car</td>
+      <td>6.808000e-02</td>
+      <td>6.924000e-02</td>
+      <td>5.546124e-02</td>
+      <td>5.637879e-02</td>
+      <td>0.020916</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>age_of_policyholder</td>
+      <td>4.706827e-01</td>
+      <td>4.696740e-01</td>
+      <td>1.235757e-01</td>
+      <td>1.233891e-01</td>
+      <td>0.008162</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>population_density</td>
+      <td>1.762770e+04</td>
+      <td>1.762111e+04</td>
+      <td>1.490372e+04</td>
+      <td>1.489590e+04</td>
+      <td>0.000442</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>make</td>
+      <td>1.782800e+00</td>
+      <td>1.765400e+00</td>
+      <td>1.151646e+00</td>
+      <td>1.132881e+00</td>
+      <td>0.015109</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>airbags</td>
+      <td>3.142400e+00</td>
+      <td>3.140600e+00</td>
+      <td>1.831173e+00</td>
+      <td>1.831694e+00</td>
+      <td>0.000983</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>displacement</td>
+      <td>1.162453e+03</td>
+      <td>1.163665e+03</td>
+      <td>2.679468e+02</td>
+      <td>2.675440e+02</td>
+      <td>0.004525</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>cylinder</td>
+      <td>3.626200e+00</td>
+      <td>3.631000e+00</td>
+      <td>4.838599e-01</td>
+      <td>4.825822e-01</td>
+      <td>0.009920</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>gear_box</td>
+      <td>5.000000e+00</td>
+      <td>5.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>turning_radius</td>
+      <td>4.854880e+00</td>
+      <td>4.854050e+00</td>
+      <td>2.275644e-01</td>
+      <td>2.283014e-01</td>
+      <td>0.003647</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>length</td>
+      <td>3.850762e+03</td>
+      <td>3.852077e+03</td>
+      <td>3.120314e+02</td>
+      <td>3.126209e+02</td>
+      <td>0.004214</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>width</td>
+      <td>1.672326e+03</td>
+      <td>1.673144e+03</td>
+      <td>1.121486e+02</td>
+      <td>1.120971e+02</td>
+      <td>0.007292</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td>1.550751e+03</td>
+      <td>1.552428e+03</td>
+      <td>7.773730e+01</td>
+      <td>7.847032e+01</td>
+      <td>0.021575</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>gross_weight</td>
+      <td>1.382846e+03</td>
+      <td>1.386830e+03</td>
+      <td>2.137611e+02</td>
+      <td>2.121111e+02</td>
+      <td>0.018639</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>ncap_rating</td>
+      <td>1.765200e+00</td>
+      <td>1.770200e+00</td>
+      <td>1.405156e+00</td>
+      <td>1.397348e+00</td>
+      <td>0.003558</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>safety_score</td>
+      <td>9.692600e+00</td>
+      <td>9.693400e+00</td>
+      <td>5.152030e+00</td>
+      <td>5.157394e+00</td>
+      <td>0.000155</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>vehicle_volume</td>
+      <td>1.007435e+10</td>
+      <td>1.009287e+10</td>
+      <td>1.756537e+09</td>
+      <td>1.755505e+09</td>
+      <td>0.010548</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>max_power_value</td>
+      <td>7.904513e+01</td>
+      <td>7.905916e+01</td>
+      <td>2.775688e+01</td>
+      <td>2.773078e+01</td>
+      <td>0.000505</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>max_torque_value</td>
+      <td>1.347509e+02</td>
+      <td>1.349370e+02</td>
+      <td>7.321955e+01</td>
+      <td>7.338851e+01</td>
+      <td>0.002541</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>power_to_weight_ratio</td>
+      <td>5.617833e-02</td>
+      <td>5.598054e-02</td>
+      <td>1.581780e-02</td>
+      <td>1.559318e-02</td>
+      <td>0.012504</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>torque_to_weight_ratio</td>
+      <td>9.346391e-02</td>
+      <td>9.317346e-02</td>
+      <td>4.072771e-02</td>
+      <td>4.026294e-02</td>
+      <td>0.007132</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>log_population_density</td>
+      <td>9.401874e+00</td>
+      <td>9.403050e+00</td>
+      <td>9.298816e-01</td>
+      <td>9.266162e-01</td>
+      <td>0.001265</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>log_height</td>
+      <td>7.345923e+00</td>
+      <td>7.346982e+00</td>
+      <td>4.894986e-02</td>
+      <td>4.937685e-02</td>
+      <td>0.021640</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C10</td>
+      <td>4.980000e-02</td>
+      <td>4.900000e-02</td>
+      <td>2.175533e-01</td>
+      <td>2.158896e-01</td>
+      <td>0.003677</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C11</td>
+      <td>2.120000e-02</td>
+      <td>2.320000e-02</td>
+      <td>1.440650e-01</td>
+      <td>1.505533e-01</td>
+      <td>0.013883</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C12</td>
+      <td>2.600000e-02</td>
+      <td>2.460000e-02</td>
+      <td>1.591511e-01</td>
+      <td>1.549182e-01</td>
+      <td>0.008797</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C13</td>
+      <td>5.700000e-02</td>
+      <td>5.800000e-02</td>
+      <td>2.318658e-01</td>
+      <td>2.337668e-01</td>
+      <td>0.004313</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C14</td>
+      <td>6.520000e-02</td>
+      <td>6.000000e-02</td>
+      <td>2.469031e-01</td>
+      <td>2.375106e-01</td>
+      <td>0.021061</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C15</td>
+      <td>1.380000e-02</td>
+      <td>1.360000e-02</td>
+      <td>1.166717e-01</td>
+      <td>1.158349e-01</td>
+      <td>0.001714</td>
+      <td>No Major Drift</td>
+    </tr>
+    <tr>
+      <td>area_cluster_C16</td>
+      <td>6.400000e-03</td>
+      <td>6.200000e-03</td>
+      <td>7.975156e-02</td>
+      <td>7.850346e-02</td>
+      <td>0.002508</td>
+      <td>No Major Drift</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    

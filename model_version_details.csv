@@ -1,0 +1,2 @@
+Model_Version,Selected_Model,Model_Type,Training_Data,MLflow_Run_ID,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Approval_Status,Reason_for_Selection
+v1.0,Tuned Decision Tree,Tuned Decision Tree Classifier,cleaned_dataset.csv,18fff3d926364a908c06e4221fb28dc3,0.5956139602355149,0.09551815047657676,0.628,0.16581587748635804,0.6536787917464371,Approved for final prediction generation,"Selected based on ROC-AUC, recall, F1 score, and business interpretability. The model provides useful separation between claim and no-claim policyholders."
